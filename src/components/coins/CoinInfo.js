@@ -41,7 +41,7 @@ const CoinInfo = ({ infoData }) => {
   }, [name, symbol]);
 
   const formatCurrency = (currency) => {
-    if (currency < 1) return `$${currency}`;
+    if (currency < 1) return `$${currency?.toFixed(10)}`;
     if (currency) return `$${currency.toLocaleString()}`;
     return "N/A";
   };
