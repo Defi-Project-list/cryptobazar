@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.heroBg {
+  background: linear-gradient(rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.3)),
+    url("https://pixabay.com/get/ga1eefce33ef9048affc2e0bcee83224b09f98aae767531d7cb0372a7559ce4371af438432eed1ead124aab57e72394ab519bc42d1a281a442161de554eeb528b_1280.jpg") !important;
+  height: 20vh;
+}
